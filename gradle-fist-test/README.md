@@ -67,7 +67,7 @@ Source package (default: GradleFirstTest):
 ```
 
 After execute the commands, we will have a Java project configuration. 
-You can look de Jaca class with the code in /javastudy/gradle-fist-test/src/main/java/GradleFirstTest/App.java
+You can look de Java class with the code in /javastudy/gradle-fist-test/src/main/java/GradleFirstTest/App.java
 
 Command to build the project and download the dependencies:
 ```
