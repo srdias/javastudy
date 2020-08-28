@@ -1,12 +1,14 @@
 # First test with Gradle
 
 ## Commands to install/upgrade Gradle to version 6.6 (Ubuntu 20):
+
+```
 sudo apt -y install vim apt-transport-https dirmngr wget software-properties-common
 sudo add-apt-repository ppa:cwchien/gradle
 sudo apt-get update
 sudo apt -y install gradle
 gradle -v
-
+```
 Output of command "gradle -v":
 ```
 ------------------------------------------------------------
@@ -64,10 +66,24 @@ Project name (default: gradle-fist-test): GradleFirstTest
 Source package (default: GradleFirstTest):
 ```
 
-After executte these commands, we will have a Java project configurated. 
+After execute the commands, we will have a Java project configuration. 
 You can look de Jaca class with the code in /javastudy/gradle-fist-test/src/main/java/GradleFirstTest/App.java
 
-Command to build the project and download the dependences:
+Command to build the project and download the dependencies:
 ```
 gradle build
 ```
+
+To run de application:
+```
+gradle run
+```
+Output:
+```
+> Task :run
+Hello world. settingsITIALIZING [30ms]
+
+BUILD SUCCESSFUL in 769ms
+2 actionable tasks: 1 executed, 1 up-to-date
+```
+The text "Hello world." is implemented in the source file /javastudy/gradle-fist-test/src/main/java/GradleFirstTest/App.java
